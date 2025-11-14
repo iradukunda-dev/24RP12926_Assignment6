@@ -316,7 +316,7 @@ else:
 <div class="container">
     <h2>📚 Book Management System</h2>
     <div class="logout-bar">
-        <span style="margin-right: 15px;">Logged in as: **<?php echo htmlspecialchars($_SESSION['username']); ?>**</span>
+        <span style="margin-right: 15px;">Logged in as: <?php echo htmlspecialchars($_SESSION['username']); ?></span>
         <a href="?logout=true" class="button" style="background-color: #dc3545;">Logout</a>
     </div>
 
